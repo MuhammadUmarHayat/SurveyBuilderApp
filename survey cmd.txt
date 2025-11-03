@@ -1,0 +1,46 @@
+composer create-project laravel/laravel surveyBuilder "9.*"
+cd surveyBuilder
+surveyBuilderDB
+php artisan make:migration create_surveys_table
+php artisan make:migration create_questions_table
+php artisan make:migration create_options_table
+php artisan make:migration create_responses_table
+php artisan make:migration create_answers_table
+php artisan migrate
+php artisan make:model Survey
+php artisan make:model Question
+php artisan make:model Option
+php artisan make:model Response
+php artisan make:model Answer
+php artisan make:model
+Survey,Question,Option,Response,Answer
+
+php artisan make:controller SurveyController
+php artisan make:controller QuestionController
+php artisan make:controller OptionController
+php artisan make:controller ResponseController
+php artisan make:controller AnswerController
+
+composer install
+php artisan migrate
+php artisan serve
+---------------------------------------React API--------------- 
+composer require fruitcake/laravel-cors
+Edit config/cors.php:
+'paths' => ['api/*'],
+'allowed_methods' => ['*'],
+'allowed_origins' => ['http://localhost:5173'], // React port
+'allowed_headers' => ['*'],
+'supports_credentials' => true,
+
+php artisan config:cache
+
+npm create vite@latest frontend --template react
+cd frontend
+npm install
+
+cd frontend
+npm install react-router-dom
+
+npm run dev
+npm run dev
