@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Builder Pro - Create Professional Surveys in Minutes</title>
+    <meta name="description" content="Create beautiful, high-converting surveys with drag-and-drop builder. Get actionable insights without technical expertise. Start your free trial today!">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fsurveybui6785back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.9"></script>
+  <script type="module" src="https://static.rocket.new/rocket-shot.js?v=0.0.1"></script>
+  </head>
+<body class="font-inter bg-background text-text-primary">
+    <!-- Navigation Header -->
+    <nav class="bg-white border-b border-border sticky top-0 z-50">
+        <div class="container-custom section-padding py-4">
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <div class="flex items-center space-x-2">
+                    <svg class="w-8 h-8 text-primary" viewBox="0 0 32 32" fill="currentColor">
+                        <path d="M16 2L4 8v16l12 6 12-6V8L16 2zm0 4l8 4v12l-8 4-8-4V10l8-4z"/>
+                        <circle cx="16" cy="16" r="4"/>
+                    </svg>
+                    <span class="text-xl font-bold text-primary">Survey Builder Pro</span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-text-secondary hover:text-primary transition-fast">Features</a>
+                    <a href="#pricing" class="text-text-secondary hover:text-primary transition-fast">Pricing</a>
+                    <a href="#testimonials" class="text-text-secondary hover:text-primary transition-fast">Reviews</a>
+                    <a href="#demo" class="text-text-secondary hover:text-primary transition-fast">Demo</a>
+                    <button class="text-primary hover:text-primary-700 transition-fast">Sign In</button>
+                    <button class="btn-cta">Start Free Trial</button>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden p-2" id="mobile-menu-btn">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-primary-50 to-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-primary-600/5 to-accent-600/5"></div>
+        <div class="container-custom section-padding relative">
+            <div class="grid lg:grid-cols-2 gap-12 items-center min-h-[600px]">
+                <!-- Hero Content -->
+                <div class="space-y-8">
+                    <div class="space-y-4">
+                        <div class="inline-flex items-center px-4 py-2 bg-success-50 text-success-700 rounded-full text-sm font-medium border border-success-200">
+                            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            Trusted by 50,000+ businesses
+                        </div>
+                        <h1 class="text-4xl lg:text-hero font-bold text-text-primary text-balance">
+                            Create Professional Surveys in Minutes
+                        </h1>
+                        <p class="text-xl text-text-secondary text-balance max-w-xl">
+                            Beautiful templates + powerful analytics = actionable insights without technical expertise. Build surveys that actually get completed.
+                        </p>
+                    </div>
+                    
+                    <!-- Trust Metrics -->
+                    <div class="flex flex-wrap gap-6 text-sm text-text-secondary">
+                        <div class="flex items-center">
+                            <span class="text-2xl font-bold text-primary mr-2" id="surveys-counter">50,000</span>
+                            <span>+ surveys created monthly</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-2xl font-bold text-primary mr-2" id="responses-counter">2</span>
+                            <span>M+ responses collected</span>
+                        </div>
+                    </div>
+                    
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="btn-cta text-lg px-8 py-4">
+                            Start Free Trial - No Credit Card Required
+                        </button>
+                        <button class="flex items-center justify-center px-8 py-4 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary-50 transition-fast">
+                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path>
+                            </svg>
+                            Watch 2-Minute Demo
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Hero Visual -->
+                <div class="relative">
+                    <div class="bg-white rounded-2xl shadow-card-hover p-6 transform rotate-2">
+                        <img src="https://images.unsplash.com/photo-1669643470668-19d6fb1d3f21" 
+                             alt="Survey Builder Pro dashboard interface showing drag-and-drop survey creation with analytics" 
+                             class="w-full h-64 object-cover rounded-lg"
+                             onerror="this.src='https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                    </div>
+                    <div class="absolute -bottom-4 -left-4 bg-accent text-white p-4 rounded-lg shadow-lg">
+                        <div class="text-sm font-medium">Response Rate</div>
+                        <div class="text-2xl font-bold">+300%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Agitation Section -->
+    <section class="section-separator">
+        <div class="container-custom section-padding">
+            <div class="text-center mb-16">
+                <h2 class="text-heading-xl mb-4">Tired of Surveys That Nobody Completes?</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Most survey tools create ugly, confusing forms that frustrate users and deliver poor response rates. See the difference professional design makes.
+                </p>
+            </div>
+            
+            <!-- Before/After Comparison -->
+            <div class="grid md:grid-cols-2 gap-8 mb-16">
+                <!-- Before -->
+                <div class="bg-error-50 border-2 border-error-200 rounded-xl p-8 relative">
+                    <div class="absolute -top-3 left-6 bg-error text-white px-3 py-1 rounded-full text-sm font-medium">
+                        Typical DIY Survey
+                    </div>
+                    <div class="space-y-4 opacity-75">
+                        <div class="bg-white p-4 border border-gray-300 rounded">
+                            <div class="text-sm text-gray-600 mb-2">Question 1 of 15</div>
+                            <div class="text-base mb-3">How satisfied are you with our service?</div>
+                            <div class="space-y-2">
+                                <label class="flex items-center text-sm">
+                                    <input type="radio" class="mr-2"> Very Satisfied
+                                </label>
+                                <label class="flex items-center text-sm">
+                                    <input type="radio" class="mr-2"> Satisfied
+                                </label>
+                                <label class="flex items-center text-sm">
+                                    <input type="radio" class="mr-2"> Neutral
+                                </label>
+                            </div>
+                        </div>
+                        <div class="text-center text-error font-medium">
+                            Average Completion Rate: 12%
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- After -->
+                <div class="bg-success-50 border-2 border-success-200 rounded-xl p-8 relative">
+                    <div class="absolute -top-3 left-6 bg-success text-white px-3 py-1 rounded-full text-sm font-medium">
+                        Survey Builder Pro
+                    </div>
+                    <div class="space-y-4">
+                        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="text-sm text-primary font-medium">Question 1 of 5</div>
+                                <div class="w-24 h-2 bg-gray-200 rounded-full">
+                                    <div class="w-5 h-2 bg-primary rounded-full"></div>
+                                </div>
+                            </div>
+                            <div class="text-lg mb-4 font-medium">How would you rate your experience?</div>
+                            <div class="grid grid-cols-5 gap-2">
+                                <button class="p-3 text-2xl hover:bg-primary-50 rounded-lg transition-fast">😞</button>
+                                <button class="p-3 text-2xl hover:bg-primary-50 rounded-lg transition-fast">😐</button>
+                                <button class="p-3 text-2xl hover:bg-primary-50 rounded-lg transition-fast">🙂</button>
+                                <button class="p-3 text-2xl hover:bg-primary-50 rounded-lg transition-fast">😊</button>
+                                <button class="p-3 text-2xl hover:bg-primary-50 rounded-lg transition-fast">🤩</button>
+                            </div>
+                        </div>
+                        <div class="text-center text-success font-medium">
+                            Average Completion Rate: 78%
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Pain Point Selector -->
+            <div class="bg-white rounded-xl shadow-card p-8">
+                <h3 class="text-heading-md text-center mb-8">What's Your Biggest Survey Challenge?</h3>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <button class="pain-point-btn p-6 border-2 border-gray-200 rounded-lg hover:border-primary hover:bg-primary-50 transition-fast text-left" data-solution="low-response">
+                        <div class="text-accent text-3xl mb-3">📉</div>
+                        <h4 class="font-semibold mb-2">Low Response Rates</h4>
+                        <p class="text-text-secondary text-sm">People start but don't finish your surveys</p>
+                    </button>
+                    <button class="pain-point-btn p-6 border-2 border-gray-200 rounded-lg hover:border-primary hover:bg-primary-50 transition-fast text-left" data-solution="time-consuming">
+                        <div class="text-accent text-3xl mb-3">⏰</div>
+                        <h4 class="font-semibold mb-2">Time-Consuming Creation</h4>
+                        <p class="text-text-secondary text-sm">Hours spent building basic surveys</p>
+                    </button>
+                    <button class="pain-point-btn p-6 border-2 border-gray-200 rounded-lg hover:border-primary hover:bg-primary-50 transition-fast text-left" data-solution="poor-analytics">
+                        <div class="text-accent text-3xl mb-3">📊</div>
+                        <h4 class="font-semibold mb-2">Poor Analytics</h4>
+                        <p class="text-text-secondary text-sm">Can't make sense of the data you collect</p>
+                    </button>
+                </div>
+                
+                <!-- Solution Reveals -->
+                <div id="solution-low-response" class="solution-reveal hidden mt-8 p-6 bg-primary-50 rounded-lg">
+                    <h4 class="font-semibold text-primary mb-3">Our Solution: Mobile-Optimized Templates</h4>
+                    <p class="text-text-secondary">Beautiful, thumb-friendly designs that work perfectly on any device. Our customers see 300% higher completion rates on average.</p>
+                </div>
+                <div id="solution-time-consuming" class="solution-reveal hidden mt-8 p-6 bg-primary-50 rounded-lg">
+                    <h4 class="font-semibold text-primary mb-3">Our Solution: Drag-and-Drop Builder</h4>
+                    <p class="text-text-secondary">Create professional surveys in under 5 minutes with our intuitive builder. 200+ templates to get you started instantly.</p>
+                </div>
+                <div id="solution-poor-analytics" class="solution-reveal hidden mt-8 p-6 bg-primary-50 rounded-lg">
+                    <h4 class="font-semibold text-primary mb-3">Our Solution: Real-Time Analytics Dashboard</h4>
+                    <p class="text-text-secondary">Instant insights with visual charts, trend analysis, and automated reports. No spreadsheet skills required.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Demo Section -->
+    <section id="demo" class="bg-white">
+        <div class="container-custom section-padding">
+            <div class="text-center mb-16">
+                <h2 class="text-heading-xl mb-4">See How Easy It Really Is</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Try our drag-and-drop builder right here. Create a survey question, apply a template, and see the mobile preview - all in real-time.
+                </p>
+            </div>
+            
+            <!-- Interactive Builder Demo -->
+            <div class="bg-surface rounded-2xl p-8 max-w-6xl mx-auto">
+                <div class="grid lg:grid-cols-3 gap-8">
+                    <!-- Builder Panel -->
+                    <div class="lg:col-span-2">
+                        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+                            <div class="flex items-center justify-between mb-6">
+                                <h3 class="font-semibold">Survey Builder</h3>
+                                <div class="flex space-x-2">
+                                    <button class="px-3 py-1 bg-primary text-white rounded text-sm">Desktop</button>
+                                    <button class="px-3 py-1 bg-gray-200 text-gray-700 rounded text-sm" id="mobile-preview-btn">Mobile</button>
+                                </div>
+                            </div>
+                            
+                            <!-- Question Builder -->
+                            <div class="space-y-4">
+                                <div>
+                                    <label class="block text-sm font-medium mb-2">Question Text</label>
+                                    <input type="text" 
+                                           class="form-input" 
+                                           placeholder="Enter your question here..."
+                                           id="demo-question"
+                                           value="How would you rate our customer service?">
+                                </div>
+                                
+                                <div>
+                                    <label class="block text-sm font-medium mb-2">Question Type</label>
+                                    <select class="form-input" id="demo-type">
+                                        <option value="rating">Rating Scale</option>
+                                        <option value="multiple">Multiple Choice</option>
+                                        <option value="text">Text Input</option>
+                                        <option value="emoji">Emoji Rating</option>
+                                    </select>
+                                </div>
+                                
+                                <!-- Template Selector -->
+                                <div>
+                                    <label class="block text-sm font-medium mb-2">Choose Template</label>
+                                    <div class="grid grid-cols-3 gap-3">
+                                        <button class="template-btn p-3 border-2 border-primary bg-primary-50 rounded-lg text-center" data-template="modern">
+                                            <div class="text-xs font-medium">Modern</div>
+                                        </button>
+                                        <button class="template-btn p-3 border-2 border-gray-200 rounded-lg text-center hover:border-primary" data-template="minimal">
+                                            <div class="text-xs font-medium">Minimal</div>
+                                        </button>
+                                        <button class="template-btn p-3 border-2 border-gray-200 rounded-lg text-center hover:border-primary" data-template="colorful">
+                                            <div class="text-xs font-medium">Colorful</div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Live Preview -->
+                    <div>
+                        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+                            <h3 class="font-semibold mb-4">Live Preview</h3>
+                            <div id="demo-preview" class="border border-gray-200 rounded-lg p-4 min-h-[200px]">
+                                <!-- Dynamic preview content -->
+                                <div class="space-y-4">
+                                    <div class="text-sm text-primary font-medium">Question 1 of 1</div>
+                                    <div class="font-medium" id="preview-question">How would you rate our customer service?</div>
+                                    <div class="space-y-2" id="preview-options">
+                                        <div class="flex items-center space-x-2">
+                                            <div class="w-4 h-4 border-2 border-primary rounded-full"></div>
+                                            <span class="text-sm">Excellent</span>
+                                        </div>
+                                        <div class="flex items-center space-x-2">
+                                            <div class="w-4 h-4 border-2 border-gray-300 rounded-full"></div>
+                                            <span class="text-sm">Good</span>
+                                        </div>
+                                        <div class="flex items-center space-x-2">
+                                            <div class="w-4 h-4 border-2 border-gray-300 rounded-full"></div>
+                                            <span class="text-sm">Average</span>
+                                        </div>
+                                        <div class="flex items-center space-x-2">
+                                            <div class="w-4 h-4 border-2 border-gray-300 rounded-full"></div>
+                                            <span class="text-sm">Poor</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-8">
+                    <button class="btn-cta text-lg px-8 py-4">
+                        Build Your First Survey Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="section-separator">
+        <div class="container-custom section-padding">
+            <div class="text-center mb-16">
+                <h2 class="text-heading-xl mb-4">Why Survey Builder Pro Works</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Three core advantages that make our surveys get completed and deliver actionable insights.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Benefit 1 -->
+                <div class="text-center group">
+                    <div class="w-20 h-20 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-primary-200 transition-fast">
+                        <svg class="w-10 h-10 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-heading-md mb-4">Create in Minutes</h3>
+                    <p class="text-text-secondary mb-6">
+                        Our drag-and-drop builder with 200+ templates means you can create professional surveys in under 5 minutes, not hours.
+                    </p>
+                    <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+                        <div class="text-sm text-text-secondary mb-2">Time to Create Survey</div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs">Other Tools</span>
+                            <span class="text-xs">Survey Builder Pro</span>
+                        </div>
+                        <div class="flex items-center space-x-2 mt-1">
+                            <div class="flex-1 bg-error-200 h-2 rounded-full"></div>
+                            <div class="w-4 bg-success h-2 rounded-full"></div>
+                        </div>
+                        <div class="flex items-center justify-between mt-1">
+                            <span class="text-xs text-error">2-4 hours</span>
+                            <span class="text-xs text-success">5 minutes</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Benefit 2 -->
+                <div class="text-center group">
+                    <div class="w-20 h-20 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-primary-200 transition-fast">
+                        <svg class="w-10 h-10 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-heading-md mb-4">Mobile Optimized</h3>
+                    <p class="text-text-secondary mb-6">
+                        Every survey automatically adapts to mobile devices with thumb-friendly buttons and optimized layouts for maximum completion rates.
+                    </p>
+                    <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+                        <div class="text-sm text-text-secondary mb-2">Mobile Completion Rate</div>
+                        <div class="space-y-2">
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm">Desktop</span>
+                                <span class="text-sm font-medium">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-primary h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm">Mobile</span>
+                                <span class="text-sm font-medium">78%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-primary h-2 rounded-full" style="width: 78%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Benefit 3 -->
+                <div class="text-center group">
+                    <div class="w-20 h-20 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-primary-200 transition-fast">
+                        <svg class="w-10 h-10 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-heading-md mb-4">Real-Time Analytics</h3>
+                    <p class="text-text-secondary mb-6">
+                        Watch responses come in live with beautiful charts and instant insights. Export reports or integrate with your favorite tools.
+                    </p>
+                    <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+                        <div class="text-sm text-text-secondary mb-2">Live Response Dashboard</div>
+                        <div class="space-y-2">
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm">Responses Today</span>
+                                <span class="text-sm font-medium text-success">+127</span>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm">Completion Rate</span>
+                                <span class="text-sm font-medium text-success">78%</span>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm">Avg. Time</span>
+                                <span class="text-sm font-medium">2m 34s</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section id="testimonials" class="bg-white">
+        <div class="container-custom section-padding">
+            <div class="text-center mb-16">
+                <h2 class="text-heading-xl mb-4">Trusted by 50,000+ Businesses</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    See how companies like yours are getting better insights and higher response rates with Survey Builder Pro.
+                </p>
+            </div>
+            
+            <!-- Company Logos -->
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center mb-16 opacity-60">
+                <img src="https://img.rocket.new/generatedImages/rocket_gen_img_179bd0302-1762232807363.png" 
+                     alt="Microsoft company logo" 
+                     class="h-8 object-contain mx-auto filter grayscale hover:grayscale-0 transition-fast"
+                     onerror="this.src='https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                <img src="https://img.rocket.new/generatedImages/rocket_gen_img_10d81054e-1762232808307.png" 
+                     alt="Google company logo" 
+                     class="h-8 object-contain mx-auto filter grayscale hover:grayscale-0 transition-fast"
+                     onerror="this.src='https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                <img src="https://img.rocket.new/generatedImages/rocket_gen_img_1b07aa623-1762232809157.png" 
+                     alt="Amazon company logo" 
+                     class="h-8 object-contain mx-auto filter grayscale hover:grayscale-0 transition-fast"
+                     onerror="this.src='https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                <img src="https://img.rocket.new/generatedImages/rocket_gen_img_1264aecbc-1762232806782.png" 
+                     alt="Apple company logo" 
+                     class="h-8 object-contain mx-auto filter grayscale hover:grayscale-0 transition-fast"
+                     onerror="this.src='https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                <img src="https://img.rocket.new/generatedImages/rocket_gen_img_139e06c76-1762232806620.png" 
+                     alt="Netflix company logo" 
+                     class="h-8 object-contain mx-auto filter grayscale hover:grayscale-0 transition-fast"
+                     onerror="this.src='https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                <img src="https://img.rocket.new/generatedImages/rocket_gen_img_1f6fc94ec-1762232809585.png" 
+                     alt="Spotify company logo" 
+                     class="h-8 object-contain mx-auto filter grayscale hover:grayscale-0 transition-fast"
+                     onerror="this.src='https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+            </div>
+            
+            <!-- Testimonials Grid -->
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.unsplash.com/photo-1690192078217-d0a48326a335" 
+                             alt="Sarah Johnson, Marketing Director at TechCorp" 
+                             class="w-12 h-12 rounded-full object-cover mr-4"
+                             onerror="this.src='https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                        <div>
+                            <div class="font-semibold">Sarah Johnson</div>
+                            <div class="text-sm text-text-secondary">Marketing Director, TechCorp</div>
+                        </div>
+                    </div>
+                    <div class="flex mb-4">
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                    </div>
+                    <p class="text-text-secondary mb-4">
+                        "We increased our survey completion rate by 300% after switching to Survey Builder Pro. The templates are beautiful and the analytics are incredibly helpful."
+                    </p>
+                    <div class="text-sm font-medium text-success">
+                        300% increase in completion rates
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.unsplash.com/photo-1723990720514-65968a7d517b" 
+                             alt="Michael Chen, CEO at StartupXYZ" 
+                             class="w-12 h-12 rounded-full object-cover mr-4"
+                             onerror="this.src='https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                        <div>
+                            <div class="font-semibold">Michael Chen</div>
+                            <div class="text-sm text-text-secondary">CEO, StartupXYZ</div>
+                        </div>
+                    </div>
+                    <div class="flex mb-4">
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                    </div>
+                    <p class="text-text-secondary mb-4">
+                        "The drag-and-drop builder saved us weeks of development time. We can now create professional surveys in minutes instead of hiring developers."
+                    </p>
+                    <div class="text-sm font-medium text-success">
+                        Saved 40+ hours per month
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.unsplash.com/photo-1681909623359-eefffb36a18d" 
+                             alt="Emily Rodriguez, Product Manager at InnovateInc" 
+                             class="w-12 h-12 rounded-full object-cover mr-4"
+                             onerror="this.src='https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                        <div>
+                            <div class="font-semibold">Emily Rodriguez</div>
+                            <div class="text-sm text-text-secondary">Product Manager, InnovateInc</div>
+                        </div>
+                    </div>
+                    <div class="flex mb-4">
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                        </svg>
+                    </div>
+                    <p class="text-text-secondary mb-4">
+                        "The real-time analytics dashboard gives us insights we never had before. We can see exactly how users interact with our surveys and optimize accordingly."
+                    </p>
+                    <div class="text-sm font-medium text-success">
+                        250% better data insights
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section-separator">
+        <div class="container-custom section-padding">
+            <div class="text-center mb-16">
+                <h2 class="text-heading-xl mb-4">Everything You Need to Create Amazing Surveys</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    From templates to analytics, we've built every feature you need to collect better data and make smarter decisions.
+                </p>
+            </div>
+            
+            <!-- Feature Tabs -->
+            <div class="max-w-6xl mx-auto">
+                <div class="flex flex-wrap justify-center mb-8 border-b border-gray-200">
+                    <button class="feature-tab px-6 py-3 font-medium border-b-2 border-primary text-primary" data-tab="templates">
+                        200+ Templates
+                    </button>
+                    <button class="feature-tab px-6 py-3 font-medium border-b-2 border-transparent text-text-secondary hover:text-primary transition-fast" data-tab="logic">
+                        Logic Branching
+                    </button>
+                    <button class="feature-tab px-6 py-3 font-medium border-b-2 border-transparent text-text-secondary hover:text-primary transition-fast" data-tab="analytics">
+                        Analytics Dashboard
+                    </button>
+                    <button class="feature-tab px-6 py-3 font-medium border-b-2 border-transparent text-text-secondary hover:text-primary transition-fast" data-tab="integrations">
+                        Integrations
+                    </button>
+                </div>
+                
+                <!-- Tab Content -->
+                <div class="tab-content">
+                    <!-- Templates Tab -->
+                    <div id="tab-templates" class="tab-panel">
+                        <div class="grid lg:grid-cols-2 gap-12 items-center">
+                            <div>
+                                <h3 class="text-heading-md mb-6">Professional Templates for Every Use Case</h3>
+                                <div class="space-y-4 mb-8">
+                                    <div class="flex items-start space-x-3">
+                                        <svg class="w-6 h-6 text-success mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                        </svg>
+                                        <div>
+                                            <div class="font-medium">Customer Satisfaction Surveys</div>
+                                            <div class="text-text-secondary text-sm">NPS, CSAT, and feedback templates</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start space-x-3">
+                                        <svg class="w-6 h-6 text-success mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                        </svg>
+                                        <div>
+                                            <div class="font-medium">Market Research Templates</div>
+                                            <div class="text-text-secondary text-sm">Product feedback and market analysis</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start space-x-3">
+                                        <svg class="w-6 h-6 text-success mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                        </svg>
+                                        <div>
+                                            <div class="font-medium">Employee Engagement</div>
+                                            <div class="text-text-secondary text-sm">HR surveys and team feedback</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start space-x-3">
+                                        <svg class="w-6 h-6 text-success mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                        </svg>
+                                        <div>
+                                            <div class="font-medium">Event Feedback</div>
+                                            <div class="text-text-secondary text-sm">Post-event surveys and registration forms</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn-cta">Browse All Templates</button>
+                            </div>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
+                                    <img src="https://images.unsplash.com/photo-1529573468717-079454a8c356" 
+                                         alt="Customer satisfaction survey template preview" 
+                                         class="w-full h-32 object-cover rounded mb-3"
+                                         onerror="this.src='https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                                    <div class="text-sm font-medium">Customer Satisfaction</div>
+                                </div>
+                                <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
+                                    <img src="https://images.unsplash.com/photo-1632260200401-8932c10be26c" 
+                                         alt="Market research survey template preview" 
+                                         class="w-full h-32 object-cover rounded mb-3"
+                                         onerror="this.src='https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                                    <div class="text-sm font-medium">Market Research</div>
+                                </div>
+                                <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
+                                    <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3" 
+                                         alt="Employee engagement survey template preview" 
+                                         class="w-full h-32 object-cover rounded mb-3"
+                                         onerror="this.src='https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                                    <div class="text-sm font-medium">Employee Engagement</div>
+                                </div>
+                                <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
+                                    <img src="https://images.unsplash.com/photo-1529573468717-079454a8c356" 
+                                         alt="Event feedback survey template preview" 
+                                         class="w-full h-32 object-cover rounded mb-3"
+                                         onerror="this.src='https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                                    <div class="text-sm font-medium">Event Feedback</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Logic Branching Tab -->
+                    <div id="tab-logic" class="tab-panel hidden">
+                        <div class="grid lg:grid-cols-2 gap-12 items-center">
+                            <div>
+                                <h3 class="text-heading-md mb-6">Smart Logic Branching</h3>
+                                <div class="space-y-4 mb-8">
+                                    <div class="flex items-start space-x-3">
+                                        <svg class="w-6 h-6 text-success mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                        </svg>
+                                        <div>
+                                            <div class="font-medium">Conditional Questions</div>
+                                            <div class="text-text-secondary text-sm">Show/hide questions based on previous answers</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start space-x-3">
+                                        <svg class="w-6 h-6 text-success mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                        </svg>
+                                        <div>
+                                            <div class="font-medium">Skip Logic</div>
+                                            <div class="text-text-secondary text-sm">Jump to relevant sections automatically</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start space-x-3">
+                                        <svg class="w-6 h-6 text-success mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                        </svg>
+                                        <div>
+                                            <div class="font-medium">Personalized Paths</div>
+                                            <div class="text-text-secondary text-sm">Create unique experiences for different respondents</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn-cta">Try Logic Builder</button>
+                            </div>
+                            <div class="bg-white rounded-lg shadow-card p-6">
+                                <img src="https://images.unsplash.com/photo-1581161124035-80d89676156a" 
+                                     alt="Logic branching flowchart showing conditional survey paths" 
+                                     class="w-full h-64 object-cover rounded-lg"
+                                     onerror="this.src='https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Analytics Tab -->
+                    <div id="tab-analytics" class="tab-panel hidden">
+                        <div class="grid lg:grid-cols-2 gap-12 items-center">
+                            <div>
+                                <h3 class="text-heading-md mb-6">Real-Time Analytics Dashboard</h3>
+                                <div class="space-y-4 mb-8">
+                                    <div class="flex items-start space-x-3">
+                                        <svg class="w-6 h-6 text-success mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                        </svg>
+                                        <div>
+                                            <div class="font-medium">Live Response Tracking</div>
+                                            <div class="text-text-secondary text-sm">Watch responses come in real-time</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start space-x-3">
+                                        <svg class="w-6 h-6 text-success mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                        </svg>
+                                        <div>
+                                            <div class="font-medium">Visual Charts & Graphs</div>
+                                            <div class="text-text-secondary text-sm">Beautiful visualizations of your data</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start space-x-3">
+                                        <svg class="w-6 h-6 text-success mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                        </svg>
+                                        <div>
+                                            <div class="font-medium">Automated Reports</div>
+                                            <div class="text-text-secondary text-sm">PDF and Excel exports ready to share</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn-cta">View Sample Dashboard</button>
+                            </div>
+                            <div class="bg-white rounded-lg shadow-card p-6">
+                                <img src="https://images.unsplash.com/photo-1573311525852-81c1a0b8d03c" 
+                                     alt="Analytics dashboard showing survey response charts and metrics" 
+                                     class="w-full h-64 object-cover rounded-lg"
+                                     onerror="this.src='https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Integrations Tab -->
+                    <div id="tab-integrations" class="tab-panel hidden">
+                        <div class="grid lg:grid-cols-2 gap-12 items-center">
+                            <div>
+                                <h3 class="text-heading-md mb-6">Connect with Your Favorite Tools</h3>
+                                <div class="space-y-4 mb-8">
+                                    <div class="flex items-start space-x-3">
+                                        <svg class="w-6 h-6 text-success mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                        </svg>
+                                        <div>
+                                            <div class="font-medium">CRM Integration</div>
+                                            <div class="text-text-secondary text-sm">Salesforce, HubSpot, Pipedrive</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start space-x-3">
+                                        <svg class="w-6 h-6 text-success mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                        </svg>
+                                        <div>
+                                            <div class="font-medium">Email Marketing</div>
+                                            <div class="text-text-secondary text-sm">Mailchimp, Constant Contact, Campaign Monitor</div>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start space-x-3">
+                                        <svg class="w-6 h-6 text-success mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                                        </svg>
+                                        <div>
+                                            <div class="font-medium">Analytics Platforms</div>
+                                            <div class="text-text-secondary text-sm">Google Analytics, Mixpanel, Segment</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn-cta">View All Integrations</button>
+                            </div>
+                            <div class="grid grid-cols-3 gap-4">
+                                <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-4 text-center">
+                                    <img src="https://img.rocket.new/generatedImages/rocket_gen_img_1a3bd67c1-1762232806282.png" 
+                                         alt="Salesforce integration logo" 
+                                         class="w-12 h-12 object-contain mx-auto mb-2"
+                                         onerror="this.src='https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                                    <div class="text-xs font-medium">Salesforce</div>
+                                </div>
+                                <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-4 text-center">
+                                    <img src="https://img.rocket.new/generatedImages/rocket_gen_img_1bd72cdd0-1762232807790.png" 
+                                         alt="HubSpot integration logo" 
+                                         class="w-12 h-12 object-contain mx-auto mb-2"
+                                         onerror="this.src='https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                                    <div class="text-xs font-medium">HubSpot</div>
+                                </div>
+                                <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-4 text-center">
+                                    <img src="https://img.rocket.new/generatedImages/rocket_gen_img_12b916203-1762232808337.png" 
+                                         alt="Mailchimp integration logo" 
+                                         class="w-12 h-12 object-contain mx-auto mb-2"
+                                         onerror="this.src='https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                                    <div class="text-xs font-medium">Mailchimp</div>
+                                </div>
+                                <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-4 text-center">
+                                    <img src="https://img.rocket.new/generatedImages/rocket_gen_img_1d0aa3d95-1762232808340.png" 
+                                         alt="Google Analytics integration logo" 
+                                         class="w-12 h-12 object-contain mx-auto mb-2"
+                                         onerror="this.src='https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                                    <div class="text-xs font-medium">Google Analytics</div>
+                                </div>
+                                <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-4 text-center">
+                                    <img src="https://img.rocket.new/generatedImages/rocket_gen_img_1d8bc35a3-1762232808593.png" 
+                                         alt="Slack integration logo" 
+                                         class="w-12 h-12 object-contain mx-auto mb-2"
+                                         onerror="this.src='https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                                    <div class="text-xs font-medium">Slack</div>
+                                </div>
+                                <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-4 text-center">
+                                    <img src="https://img.rocket.new/generatedImages/rocket_gen_img_16f663a35-1762232807725.png" 
+                                         alt="Zapier integration logo" 
+                                         class="w-12 h-12 object-contain mx-auto mb-2"
+                                         onerror="this.src='https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;">
+                                    <div class="text-xs font-medium">Zapier</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="bg-white">
+        <div class="container-custom section-padding">
+            <div class="text-center mb-16">
+                <h2 class="text-heading-xl mb-4">Simple, Transparent Pricing</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Start free, upgrade when you need more. No hidden fees, no long-term contracts.
+                </p>
+                
+                <!-- Limited Time Offer -->
+                <div class="inline-flex items-center px-4 py-2 bg-warning-50 text-warning-700 rounded-full text-sm font-medium border border-warning-200 mt-6">
+                    <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
+                    </svg>
+                    Limited Time: Get 50 premium templates free with any plan
+                </div>
+            </div>
+            
+            <!-- Pricing Cards -->
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Free Plan -->
+                <div class="bg-white border-2 border-gray-200 rounded-2xl p-8 relative">
+                    <div class="text-center mb-8">
+                        <h3 class="text-heading-md mb-2">Free</h3>
+                        <div class="text-4xl font-bold mb-2">$0</div>
+                        <div class="text-text-secondary">Forever free</div>
+                    </div>
+                    
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Up to 3 surveys</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>100 responses per month</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Basic templates</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Email support</span>
+                        </li>
+                    </ul>
+                    
+                    <button class="w-full py-3 px-6 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary-50 transition-fast">
+                        Start Free
+                    </button>
+                </div>
+                
+                <!-- Pro Plan -->
+                <div class="bg-white border-2 border-primary rounded-2xl p-8 relative transform scale-105">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                        <div class="bg-primary text-white px-4 py-1 rounded-full text-sm font-medium">
+                            Most Popular
+                        </div>
+                    </div>
+                    
+                    <div class="text-center mb-8">
+                        <h3 class="text-heading-md mb-2">Pro</h3>
+                        <div class="text-4xl font-bold mb-2">$29</div>
+                        <div class="text-text-secondary">per month</div>
+                    </div>
+                    
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Unlimited surveys</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>10,000 responses per month</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>All premium templates</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Logic branching</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Advanced analytics</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Priority support</span>
+                        </li>
+                    </ul>
+                    
+                    <button class="btn-cta w-full text-lg py-4">
+                        Start 14-Day Free Trial
+                    </button>
+                </div>
+                
+                <!-- Enterprise Plan -->
+                <div class="bg-white border-2 border-gray-200 rounded-2xl p-8 relative">
+                    <div class="text-center mb-8">
+                        <h3 class="text-heading-md mb-2">Enterprise</h3>
+                        <div class="text-4xl font-bold mb-2">$99</div>
+                        <div class="text-text-secondary">per month</div>
+                    </div>
+                    
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Everything in Pro</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Unlimited responses</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>White-label surveys</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>API access</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-success mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Dedicated support</span>
+                        </li>
+                    </ul>
+                    
+                    <button class="w-full py-3 px-6 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary-50 transition-fast">
+                        Contact Sales
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Money-Back Guarantee -->
+            <div class="text-center mt-12">
+                <div class="inline-flex items-center px-6 py-3 bg-success-50 text-success-700 rounded-full border border-success-200">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span class="font-medium">30-day money-back guarantee • No questions asked</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section-separator">
+        <div class="container-custom section-padding">
+            <div class="text-center mb-16">
+                <h2 class="text-heading-xl mb-4">Frequently Asked Questions</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Got questions? We've got answers. Here are the most common questions about Survey Builder Pro.
+                </p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="space-y-6">
+                    <!-- FAQ Item 1 -->
+                    <div class="bg-white rounded-lg shadow-sm border border-gray-200">
+                        <button class="faq-toggle w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-fast" data-target="faq-1">
+                            <span class="font-semibold">How easy is it to create a survey?</span>
+                            <svg class="w-5 h-5 text-gray-400 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="faq-1" class="faq-content hidden px-6 pb-4">
+                            <p class="text-text-secondary">
+                                Creating a survey with Survey Builder Pro takes less than 5 minutes. Simply choose a template, customize your questions using our drag-and-drop builder, and publish. No technical skills required - if you can use email, you can create professional surveys.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ Item 2 -->
+                    <div class="bg-white rounded-lg shadow-sm border border-gray-200">
+                        <button class="faq-toggle w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-fast" data-target="faq-2">
+                            <span class="font-semibold">Is my data secure?</span>
+                            <svg class="w-5 h-5 text-gray-400 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="faq-2" class="faq-content hidden px-6 pb-4">
+                            <p class="text-text-secondary">
+                                Absolutely. We're SOC 2 compliant and GDPR certified. All data is encrypted in transit and at rest, stored on secure servers, and we never share your data with third parties. You own your data completely.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ Item 3 -->
+                    <div class="bg-white rounded-lg shadow-sm border border-gray-200">
+                        <button class="faq-toggle w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-fast" data-target="faq-3">
+                            <span class="font-semibold">Can I try it before I buy?</span>
+                            <svg class="w-5 h-5 text-gray-400 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="faq-3" class="faq-content hidden px-6 pb-4">
+                            <p class="text-text-secondary">
+                                Yes! Start with our free plan (no credit card required) or try Pro free for 14 days. Plus, all paid plans come with a 30-day money-back guarantee. If you're not completely satisfied, we'll refund every penny.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ Item 4 -->
+                    <div class="bg-white rounded-lg shadow-sm border border-gray-200">
+                        <button class="faq-toggle w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-fast" data-target="faq-4">
+                            <span class="font-semibold">Do surveys work on mobile devices?</span>
+                            <svg class="w-5 h-5 text-gray-400 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="faq-4" class="faq-content hidden px-6 pb-4">
+                            <p class="text-text-secondary">
+                                Every survey is automatically optimized for mobile devices with thumb-friendly buttons and responsive layouts. Over 70% of survey responses come from mobile devices, so we've made sure your surveys look perfect on any screen size.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ Item 5 -->
+                    <div class="bg-white rounded-lg shadow-sm border border-gray-200">
+                        <button class="faq-toggle w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-fast" data-target="faq-5">
+                            <span class="font-semibold">Can I integrate with my existing tools?</span>
+                            <svg class="w-5 h-5 text-gray-400 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="faq-5" class="faq-content hidden px-6 pb-4">
+                            <p class="text-text-secondary">
+                                Yes! We integrate with 100+ popular tools including Salesforce, HubSpot, Mailchimp, Google Analytics, Slack, and many more. Plus, our API allows custom integrations for enterprise customers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="bg-primary text-white">
+        <div class="container-custom section-padding">
+            <div class="text-center max-w-4xl mx-auto">
+                <h2 class="text-heading-xl mb-6 text-white">Ready to Create Your First Professional Survey?</h2>
+                <p class="text-xl mb-8 text-primary-100">
+                    Join 50,000+ businesses who trust Survey Builder Pro to collect better data and make smarter decisions. Start your free trial today - no credit card required.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+                    <button class="bg-accent hover:bg-accent-700 text-white font-semibold py-4 px-8 rounded-lg text-lg transition-fast transform hover:-translate-y-0.5">
+                        Start Free Trial Now
+                    </button>
+                    <button class="border-2 border-white text-white hover:bg-white hover:text-primary font-semibold py-4 px-8 rounded-lg text-lg transition-fast">
+                        Schedule a Demo
+                    </button>
+                </div>
+                
+                <!-- Trust Indicators -->
+                <div class="flex flex-wrap justify-center items-center gap-8 text-sm text-primary-200">
+                    <div class="flex items-center">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span>No credit card required</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span>30-day money-back guarantee</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span>Setup in under 5 minutes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300">
+        <div class="container-custom section-padding">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <svg class="w-8 h-8 text-primary" viewBox="0 0 32 32" fill="currentColor">
+                            <path d="M16 2L4 8v16l12 6 12-6V8L16 2zm0 4l8 4v12l-8 4-8-4V10l8-4z"/>
+                            <circle cx="16" cy="16" r="4"/>
+                        </svg>
+                        <span class="text-xl font-bold text-white">Survey Builder Pro</span>
+                    </div>
+                    <p class="text-sm mb-4">
+                        The easiest way to create professional surveys and collect actionable insights. Trusted by 50,000+ businesses worldwide.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="javascript:void(0)" class="text-gray-400 hover:text-white transition-fast">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-gray-400 hover:text-white transition-fast">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-gray-400 hover:text-white transition-fast">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Product Links -->
+                <div>
+                    <h4 class="font-semibold text-white mb-4">Product</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#features" class="hover:text-white transition-fast">Features</a></li>
+                        <li><a href="#pricing" class="hover:text-white transition-fast">Pricing</a></li>
+                        <li><a href="#demo" class="hover:text-white transition-fast">Demo</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-fast">Templates</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-fast">Integrations</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-fast">API</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Support Links -->
+                <div>
+                    <h4 class="font-semibold text-white mb-4">Support</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-fast">Help Center</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-fast">Contact Us</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-fast">Live Chat</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-fast">Video Tutorials</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-fast">Webinars</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-fast">Status Page</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Company Links -->
+                <div>
+                    <h4 class="font-semibold text-white mb-4">Company</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-fast">About Us</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-fast">Careers</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-fast">Press</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-fast">Partners</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-fast">Security</a></li>
+                        <li><a href="javascript:void(0)" class="hover:text-white transition-fast">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <div class="text-sm text-gray-400 mb-4 md:mb-0">
+                    © 2025 Survey Builder Pro. All rights reserved.
+                </div>
+                <div class="flex items-center space-x-6 text-sm">
+                    <div class="flex items-center">
+                        <svg class="w-4 h-4 mr-2 text-success" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span>SOC 2 Certified</span>
+                    </div>
+                    <div class="flex items-center">
+                        <svg class="w-4 h-4 mr-2 text-success" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span>GDPR Compliant</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            // Mobile menu functionality would go here
+            console.log('Mobile menu clicked');
+        });
+
+        // Animated counters
+        function animateCounter(element, target, duration = 2000) {
+            let start = 0;
+            const increment = target / (duration / 16);
+            const timer = setInterval(() => {
+                start += increment;
+                if (start >= target) {
+                    element.textContent = target.toLocaleString();
+                    clearInterval(timer);
+                } else {
+                    element.textContent = Math.floor(start).toLocaleString();
+                }
+            }, 16);
+        }
+
+        // Start counters when page loads
+        window.addEventListener('load', function() {
+            const surveysCounter = document.getElementById('surveys-counter');
+            const responsesCounter = document.getElementById('responses-counter');
+            
+            if (surveysCounter) animateCounter(surveysCounter, 50000);
+            if (responsesCounter) animateCounter(responsesCounter, 2);
+        });
+
+        // Pain point selector
+        document.querySelectorAll('.pain-point-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                // Remove active state from all buttons
+                document.querySelectorAll('.pain-point-btn').forEach(b => {
+                    b.classList.remove('border-primary', 'bg-primary-50');
+                    b.classList.add('border-gray-200');
+                });
+                
+                // Hide all solutions
+                document.querySelectorAll('.solution-reveal').forEach(s => s.classList.add('hidden'));
+                
+                // Activate clicked button
+                this.classList.remove('border-gray-200');
+                this.classList.add('border-primary', 'bg-primary-50');
+                
+                // Show corresponding solution
+                const solution = this.dataset.solution;
+                const solutionEl = document.getElementById(`solution-${solution}`);
+                if (solutionEl) {
+                    solutionEl.classList.remove('hidden');
+                }
+            });
+        });
+
+        // Demo interactions
+        document.getElementById('demo-question').addEventListener('input', function() {
+            document.getElementById('preview-question').textContent = this.value || 'Enter your question here...';
+        });
+
+        document.getElementById('demo-type').addEventListener('change', function() {
+            const previewOptions = document.getElementById('preview-options');
+            const value = this.value;
+            
+            let optionsHTML = '';
+            switch(value) {
+                case 'rating':
+                    optionsHTML = `
+                        <div class="flex items-center space-x-2">
+                            <div class="w-4 h-4 border-2 border-primary rounded-full"></div>
+                            <span class="text-sm">Excellent</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <div class="w-4 h-4 border-2 border-gray-300 rounded-full"></div>
+                            <span class="text-sm">Good</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <div class="w-4 h-4 border-2 border-gray-300 rounded-full"></div>
+                            <span class="text-sm">Average</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <div class="w-4 h-4 border-2 border-gray-300 rounded-full"></div>
+                            <span class="text-sm">Poor</span>
+                        </div>
+                    `;
+                    break;
+                case 'emoji':
+                    optionsHTML = `
+                        <div class="grid grid-cols-5 gap-2">
+                            <button class="p-2 text-2xl hover:bg-primary-50 rounded-lg transition-fast">😞</button>
+                            <button class="p-2 text-2xl hover:bg-primary-50 rounded-lg transition-fast">😐</button>
+                            <button class="p-2 text-2xl hover:bg-primary-50 rounded-lg transition-fast">🙂</button>
+                            <button class="p-2 text-2xl hover:bg-primary-50 rounded-lg transition-fast">😊</button>
+                            <button class="p-2 text-2xl hover:bg-primary-50 rounded-lg transition-fast">🤩</button>
+                        </div>
+                    `;
+                    break;
+                case 'text':
+                    optionsHTML = `
+                        <input type="text" class="w-full px-3 py-2 border border-gray-300 rounded-lg" placeholder="Type your answer here...">
+                    `;
+                    break;
+                default:
+                    optionsHTML = `
+                        <div class="flex items-center space-x-2">
+                            <input type="checkbox" class="w-4 h-4 text-primary">
+                            <span class="text-sm">Option 1</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <input type="checkbox" class="w-4 h-4 text-primary">
+                            <span class="text-sm">Option 2</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <input type="checkbox" class="w-4 h-4 text-primary">
+                            <span class="text-sm">Option 3</span>
+                        </div>
+                    `;
+            }
+            
+            previewOptions.innerHTML = optionsHTML;
+        });
+
+        // Template selector
+        document.querySelectorAll('.template-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.template-btn').forEach(b => {
+                    b.classList.remove('border-primary', 'bg-primary-50');
+                    b.classList.add('border-gray-200');
+                });
+                
+                this.classList.remove('border-gray-200');
+                this.classList.add('border-primary', 'bg-primary-50');
+            });
+        });
+
+        // Feature tabs
+        document.querySelectorAll('.feature-tab').forEach(tab => {
+            tab.addEventListener('click', function() {
+                const targetTab = this.dataset.tab;
+                
+                // Update tab buttons
+                document.querySelectorAll('.feature-tab').forEach(t => {
+                    t.classList.remove('border-primary', 'text-primary');
+                    t.classList.add('border-transparent', 'text-text-secondary');
+                });
+                
+                this.classList.remove('border-transparent', 'text-text-secondary');
+                this.classList.add('border-primary', 'text-primary');
+                
+                // Update tab content
+                document.querySelectorAll('.tab-panel').forEach(panel => {
+                    panel.classList.add('hidden');
+                });
+                
+                const targetPanel = document.getElementById(`tab-${targetTab}`);
+                if (targetPanel) {
+                    targetPanel.classList.remove('hidden');
+                }
+            });
+        });
+
+        // FAQ toggles
+        document.querySelectorAll('.faq-toggle').forEach(toggle => {
+            toggle.addEventListener('click', function() {
+                const target = this.dataset.target;
+                const content = document.getElementById(target);
+                const icon = this.querySelector('svg');
+                
+                if (content.classList.contains('hidden')) {
+                    content.classList.remove('hidden');
+                    icon.style.transform = 'rotate(180deg)';
+                } else {
+                    content.classList.add('hidden');
+                    icon.style.transform = 'rotate(0deg)';
+                }
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.slide-up').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
